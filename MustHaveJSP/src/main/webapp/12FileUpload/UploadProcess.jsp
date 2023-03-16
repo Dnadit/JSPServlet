@@ -1,3 +1,4 @@
+<%@page import="fileupload.MyfileDAO"%>
 <%@page import="fileupload.MyfileDTO"%>
 <%@page import="java.io.File"%>
 <%@page import="java.util.Date"%>
@@ -46,19 +47,16 @@ try {
 	dto.setOfile(fileName);
 	dto.setSfile(newFileName);
 	
+	// 6. DAO를 통해 데이터베이스에 반영
+	MyfileDAO dao = new MyfileDAO();
+	dao.insertFile(dto);
+	dao.close();
+	
+	// 7. 파일 목록 JSP로 리다이렉션
+	response.sendRedirect("FileList.jsp");
 } catch(Exception e) {
 	e.printStackTrace();
 	request.setAttribute("errorMessage", "파일 업로드 오류");
 	request.getRequestDispatcher("FileUploadMain.jsp").forward(request, response);
 }
 %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
