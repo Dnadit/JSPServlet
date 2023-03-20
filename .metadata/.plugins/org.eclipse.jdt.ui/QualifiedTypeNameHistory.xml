@@ -11,4 +11,10 @@
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="utils.BoardPage"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="model2.mvcboard.MVCBoardDTO"/>
+    <fullyQualifiedTypeName name="fileupload.FileUtil"/>
+    <fullyQualifiedTypeName name="model2.mvcboard.MVCBoardDAO"/>
+    <fullyQualifiedTypeName name="utils.JSFunction"/>
 </qualifiedTypeNameHistroy>
