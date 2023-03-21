@@ -1,10 +1,4 @@
-INDEX VERSION 1.4+D:\°­À¯Çö\JSPServlet\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1053599209.index
-281211172.index
-2237540907.index
-3210080224.index
-2105149684.index
-2831303493.index
-3417336869.index
-1556021939.index
+INDEX VERSION 1.4+D:\Yuhyun\JSPServlet\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 3891923302.index
+2831303493.index
+2237540907.index
